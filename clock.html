@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Circle Clock</title>
+    </head>
+    <body>
+        <h1 id="here">...</h1>
+        <script>
+        var x = document.querySelector("#here");
+        setInterval(function () {
+            x.textContent = (t => `${t.getHours()}:${t.getMinutes()}:${t.getSeconds()} ${t.getDate()}/${t.getMonth() + 1}/${t.getFullYear()}`)(new Date);
+        }, 200);
+        </script>
+    </body>
+</html>
