@@ -1,6 +1,7 @@
 {
     "title": "Simple Circle Clock",
     "home": "https://github.com/DK189/SimpleCircleClock",
+    "custom": "background",
     "type": "weburl",
     "endpoint": "https://dk189.github.io/SimpleCircleClock/clock.html",
     "source": ""
