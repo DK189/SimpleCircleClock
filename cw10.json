@@ -3,6 +3,6 @@
     "home": "https://github.com/DK189/SimpleCircleClock",
     "custom": "background",
     "type": "weburl",
-    "endpoint": "https://dk189.github.io/SimpleCircleClock/clock.html",
-    "source": ""
+    "endpoint": "",
+    "source": "https://dk189.github.io/SimpleCircleClock/clock.html"
 }
